@@ -49,27 +49,23 @@ function add(){
     num1 = parseFloat(document.getElementById("calc").innerText || 0);
     document.getElementById("calc").innerText = "";
     func = "add";
-    console.log(func);
 }
 
 function sub(){
     num1 = parseFloat(document.getElementById("calc").innerText || 0);
     document.getElementById("calc").innerText = "";
     func = "sub";
-    console.log(func);
 }
 
 function mul(){
     num1 = parseFloat(document.getElementById("calc").innerText || 0);
     document.getElementById("calc").innerText = "";
     func = "mul";
-    console.log(func);
 }
 function div(){
     num1 = parseFloat(document.getElementById("calc").innerText || 0);
     document.getElementById("calc").innerText = "";
     func = "div";
-    console.log(func);
 }
 
 function cle(){
