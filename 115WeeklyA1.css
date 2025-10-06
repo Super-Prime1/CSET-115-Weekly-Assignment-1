@@ -90,14 +90,31 @@
     background-color: rgb(180, 180, 180);
 }
 
-#\x button{
+#x button{
     background-color: rgb(180, 180, 180);
 }
 
+#divide button{
+    background-color: rgb(180, 180, 180);
+}
 
 .calculator{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.row4 button{
+    height: 75px;
+    width: 75px;
+    font-size: 25px;
+    font-weight: 700;
+    /* border: 1px solid rgb(204, 195, 195); */
+    margin: 0.1px;
+}
+
+.row4{
+    display: flex;
+    justify-content: center;
 }
